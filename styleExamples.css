@@ -1,0 +1,29 @@
+head {
+   
+    background-image: linear-gradient(coral, rgb(254, 187, 162));
+
+}
+/* applies to all anchors */
+a {
+    font-size: large;
+    color: rgb(151, 75, 47);
+} */
+/* id selector */
+#weeks {
+    color: rgb(57, 116, 184);
+}
+/* class called blurb */
+.blurb {
+    color: antiquewhite;
+}
+/* 
+/* applies to all images */
+img {
+    /* fits border and padding to the set width */
+    box-sizing: border-box;
+    width: 300px;
+    border: solid white 4px;
+    padding: 2px;
+ /* can apply left, top etc */
+    margin-left: 5px;
+} */

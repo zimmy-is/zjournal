@@ -1,0 +1,21 @@
+#navContainer {
+    border: blue solid 2px;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+}
+
+/* selector >   child(nav) of parent (navContainer) */
+#navContainer>nav {
+    border: rgb(255, 0, 0) solid 2px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#navContainer > nav > a {
+border: green solid 2px;
+display: flex;
+
+}
